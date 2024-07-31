@@ -12,6 +12,7 @@ fun main() {
     println("${helado.name}: ${helado.cook()}")
     println("${jugo.name}: ${jugo.cook()}")
     println("${helado.name}: ${helado.eat()}")
+    println("${jugo.name}: ${jugo.pour()}")
 
     println("Descuento para la hamburguesa: $descuento")
 }
